@@ -1,0 +1,16 @@
+.bg-nav{
+    background-color: #002d32;
+}
+.text-nav{
+    color: white;
+    font-size: 18px;
+}
+.btn-nav{
+    color: white;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.25);
+    background-color: #73B1B2;
+    margin-right: 2%;
+}

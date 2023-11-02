@@ -1,0 +1,99 @@
+
+.lateral-image {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .lateral-image::before {
+    content: "";
+    background-color: rgba(0, 90, 100, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .lateral-image::after {
+    content: "";
+    background-image: url("../images/fundo-tela-login.png");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+
+  .logo-negative{
+    z-index: 2;
+    position: absolute;
+    width: 50%;
+  }
+.logo-PosColor {
+    margin-top: 30%;
+}
+ .logo-PosColor :first-child {
+    width: 100%;
+    margin-left: -42px;
+  }
+
+.titulo-painel{
+    font-weight: 700;
+    margin-top:15%;
+    margin-bottom: 20%;
+
+}
+.input-label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+input{
+    border: 1px solid rgba(0, 0, 0, 1);
+    height: 51px;
+    width: 438px;
+}
+.login{
+    font-size: 24px;
+}
+
+.password-input-container {
+    position: relative;
+  }
+  
+  .show-button {
+    border-radius: 4px;
+    background-color: #002d32;
+    font-size: 14px;
+    position: absolute;
+    height: 29px;
+    width: 71px;
+    top: 50%;
+    right: 2%;
+    transform: translateY(-50%);
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .login-button {
+    border-radius: 4px;
+    font-weight: 700;
+    background-color: #002d32;
+    height: 60px;
+    width: 161px;
+    margin-top: 10%;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  
+  
+  
+  
+  
+  
